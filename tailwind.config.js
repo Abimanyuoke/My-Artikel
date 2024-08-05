@@ -10,6 +10,11 @@ module.exports = {
       screens : {
         '2xl' : '800px',
       },
+      colors : {
+        primary:'#14b8a6',
+        dark: '#0f172a',
+        gray: '#64748b',
+      },
     },
   },
   plugins: [],
