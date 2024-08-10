@@ -910,6 +910,10 @@ video {
   width: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-xl {
   max-width: 36rem;
 }
@@ -2916,6 +2920,14 @@ body {
 }
 
 @media (min-width: 470px) {
+  .sm\:w-full {
+    width: 100%;
+  }
+
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
