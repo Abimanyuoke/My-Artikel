@@ -560,15 +560,21 @@ video {
   margin-left: auto;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 440px) {
   .container {
-    max-width: 640px;
+    max-width: 440px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 800px;
   }
 }
 
@@ -581,12 +587,6 @@ video {
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
   }
 }
 
@@ -2800,22 +2800,28 @@ body {
   background-color : #fff;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 440px) {
   .sm\:container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 440px) {
     .sm\:container {
-      max-width: 640px;
+      max-width: 440px;
     }
   }
 
   @media (min-width: 768px) {
     .sm\:container {
       max-width: 768px;
+    }
+  }
+
+  @media (min-width: 800px) {
+    .sm\:container {
+      max-width: 800px;
     }
   }
 
@@ -2828,12 +2834,6 @@ body {
   @media (min-width: 1280px) {
     .sm\:container {
       max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .sm\:container {
-      max-width: 1536px;
     }
   }
 }
@@ -2915,7 +2915,7 @@ body {
   text-align: center;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 440px) {
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
