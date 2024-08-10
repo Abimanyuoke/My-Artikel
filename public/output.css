@@ -558,13 +558,11 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 16px;
-  padding-left: 16px;
 }
 
-@media (min-width: 676px) {
+@media (min-width: 500px) {
   .container {
-    max-width: 676px;
+    max-width: 500px;
   }
 }
 
@@ -2802,18 +2800,16 @@ body {
   background-color : #fff;
 }
 
-@media (min-width: 676px) {
+@media (min-width: 500px) {
   .sm\:container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 16px;
-    padding-left: 16px;
   }
 
-  @media (min-width: 676px) {
+  @media (min-width: 500px) {
     .sm\:container {
-      max-width: 676px;
+      max-width: 500px;
     }
   }
 
@@ -2919,11 +2915,7 @@ body {
   text-align: center;
 }
 
-@media (min-width: 676px) {
-  .sm\:block {
-    display: block;
-  }
-
+@media (min-width: 500px) {
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2967,14 +2959,14 @@ body {
     text-align: left;
   }
 
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 

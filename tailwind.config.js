@@ -4,12 +4,11 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding : '16px'
     },
     extend: {
       screens : {
         '2xl' : '800px',
-        'sm' : '676px' 
+        'sm' : '500px' 
       },
       colors : {
         primary:'#14b8a6',
