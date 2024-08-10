@@ -866,10 +866,6 @@ video {
   height: 3rem;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
 .h-32 {
   height: 8rem;
 }
@@ -882,12 +878,12 @@ video {
   height: auto;
 }
 
-.h-36 {
-  height: 9rem;
-}
-
 .w-24 {
   width: 6rem;
+}
+
+.w-36 {
+  width: 9rem;
 }
 
 .w-9 {
@@ -912,10 +908,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-36 {
-  width: 9rem;
 }
 
 .max-w-xl {
